@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="input.css">
+</head>
+<body class=" bg-violet-100">
+  <header class="bg-white p-5 ">
+  <h1 class="text-3xl font-bold font-mono text-center mt-3 tracking-wider text-green-800 ">
+    Dashboard
+  </h1>
+</header>
+<section>
+    <div class="shadow-2xl mx-10 my-5 md:mx-40 md:my-10 p-10 rounded-xl bg-orange-200">
+        <div class="relative">
+            <img src="logo-color.png" class="rounded-full w-20 mx-auto">
+        </div>
+        <h1 class="text-center justify-center font-semibold text-gray-500 text-xl mt-5 tracking-wide leading-relaxed">Total Vaccination Doses</h1>
+        <h1 class="text-center font-semibold text-3xl m-5 mb-6">2,20,65,99,072</h1>
+        <div class="container mx-auto">
+          <div class="columns-2">
+            <div class="m-auto  rounded-2xl bg-orange-100 ">
+              <h1 class="text-center justify-center font-semibold text-gray-500 text-xl m-auto">Dose 1</h1>
+              <h1 class="text-center font-semibold text-sm md:text-base m-5 ">1,02,74,02,611</h1>
+            </div>
+            <div class="m-auto rounded-2xl bg-orange-100">
+              <h1 class="text-center justify-center font-semibold text-gray-500 text-xl m-auto"> Dose 2</h1>
+              <h1 class="text-center font-semibold text-sm md:text-base te m-5">95,19,65,155</h1>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="shadow-2xl mx-10 my-5 md:mx-40 md:my-10 p-10 rounded-xl bg-blue-200">
+        <div class="relative ">   
+            <img src="logo-color.png" class="rounded-full w-20 mx-auto ">
+        </div> 
+        <h1 class="text-center justify-center font-semibold text-gray-500 text-xl mt-5 tracking-wide leading-relaxed">Sites Conducting Vaccination</h1>
+        <h1 class="text-center font-semibold text-3xl mt-5">106</h1>
+    </div>
+  </section>
+
+  <section class="shadow-xl bg-pink-200 mx-5 rounded-xl p-5">
+    <div class="">
+      <h1 class="text-center justify-center font-semibold text-gray-500 text-xl mt-5">Vaccination Trends</h1>
+      <img src="graph.png"  class="w-max rounded-2xl my-5 ">
+    </div>
+  </section>
+
+  <section class="shadow-xl bg-slate-700 m-5 rounded-xl p-5">
+    <h1 class="mx-5 my-6 font-semibold text-center text-2xl text-white">Vaccination By</h1>
+    <div class="container mx-auto gap-3 ">
+      <div class="columns-1 md:columns-3 m-auto ">
+        <h1 class="text-center text-base font-semibold text-violet-400 md:text-xl">Gender</h1>
+        <div class="shadow-2xl rounded-lg bg-white m-auto"> 
+          <img src="gender.png" class="w-50  aspect-square object-contain">
+        </div>
+        <h1 class="text-center text-base font-semibold text-violet-400 md:text-xl">Type</h1>
+        <div class="shadow-2xl rounded-lg bg-white m-auto">
+          <img src="type.png" class="w-50  aspect-square object-contain ">
+        </div>
+        <h1 class="text-center text-base font-semibold text-violet-400 md:text-xl">Age</h1>
+
+        <div class="shadow-2xl rounded-lg bg-white m-auto">
+          <img src="age.png" class="w-50  aspect-square object-contain">
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
